@@ -4,7 +4,7 @@ DynamicSpider
 Build a dynamic spider which can handle the dom parse and fetch urls
 
 
-The aim for this code is to learn how to use gevent in python and copy the main idea from https://github.com/pnigos/vulcan
+The aim for this code is to learn how to use gevent in python and refer the main idea from https://github.com/pnigos/vulcan
 
 Dependency:
 
