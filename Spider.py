@@ -132,10 +132,10 @@ class Spider:
 
 	def insertDB(self, url, depth, html):
 		con = MySQLdb.connect(host=self.mysql_conf.host,
-									  port=self.mysql_conf.port,
-									  db=self.mysql_conf.db,
-									  user=self.mysql_conf.user,
-									  passwd=self.mysql_conf.pw)
+				      port=self.mysql_conf.port,
+				      db=self.mysql_conf.db,
+				      user=self.mysql_conf.user,
+				      passwd=self.mysql_conf.pw)
 		cursor = con.cursor()
 		try:
 			cursor.execute(""" 
